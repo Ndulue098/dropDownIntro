@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <header className=" h-screen flex flex-col bg-AlmostWhite ">
         <Nav/>
-      <div className="2xl:max-w-[88rem] xl:max-w-[82rem] lg:max-w-[74rem] xl:gap-[14rem] md:gap-[5rem] md:max-w-[60rem] max-w-[34rem] lg:gap-[7rem] gap-[3rem] sm:grid-cols-1 sm:grid-rows-[auto] lg:px-6 md:px-3 px-0  mx-auto grid place-items-center md:grid-cols-2 md:grid-rows-none">
+      <div className="xl:max-w-[82rem] lg:max-w-[74rem] xl:gap-[13rem] md:gap-[5rem] md:max-w-[60rem] max-w-[34rem] lg:gap-[7rem] gap-[3rem] sm:grid-cols-1 sm:grid-rows-[auto] lg:px-6 md:px-3 px-0  mx-auto grid place-items-center md:grid-cols-2 md:grid-rows-none">
         <div className="flex flex-col h-full md:px-0 px-5 ">
           <div className=" md:my-auto md:text-start text-center md:block flex items-center flex-col">
-            <h1 className="2xl:text-[5.2rem] xl:text-[4.8rem]  lg:text-[4.2rem] md:text-[3.2rem] leading-[1] font-bold md:mb-11 text-balance
+            <h1 className=" xl:text-[4.8rem]  lg:text-[4.2rem] md:text-[3.2rem] leading-[1] font-bold md:mb-11 text-balance
             sm:text-4xl text-[34px] mb-7 ">
               Make remote work
             </h1>
