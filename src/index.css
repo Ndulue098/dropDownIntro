@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-primary: "Epilogue", sans-serif;
+
+  --breakpoint-*:initial;
+  --breakpoint-sm: 640px;
+  
+    --breakpoint-md: 799px;
+    --breakpoint-lg: 1041px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+
+  --color-AlmostWhite: hsl(0, 0%, 98%);
+  --color-MediumGray: hsl(0, 0%, 41%);
+  --color-AlmostBlack: hsl(0, 0%, 8%);
+}
+:root{
+      --color-AlmostWhite: hsl(0, 0%, 98%);
+  --color-MediumGray: hsl(0, 0%, 41%);
+  --color-AlmostBlack: hsl(0, 0%, 8%);
+}
