@@ -20,7 +20,7 @@ export default function Nav() {
   
 
   return (
-    <nav className="2xl:px-12 xl:px-6 lg:px-6 lg:gap-12 md:gap-8 md:px-4 flex items-center md:justify-center justify-between  px-5 gap-20  py-4 pt-6 md:mb-20 mb-5">
+    <nav className="2xl:px-12 xl:px-6 lg:px-6 lg:gap-12 md:gap-8 md:px-4 flex items-center md:justify-center justify-between  px-5 gap-20  py-4 pt-6 md:mb-20 mb-8">
       <img className="" src="../images/logo.svg" alt="" />
       <div className="hidden md:flex items-center justify-between w-full text-lg font-semibold">
         <ul class="flex gap-10 md:gap-6 md:text-[14px] lg:text-lg cursor-pointer text-base text-MediumGray *:hover:text-AlmostBlack">
